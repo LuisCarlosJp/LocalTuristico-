@@ -1,0 +1,17 @@
+body {
+  background-color: #f5f4f0;
+}
+
+#page {
+  box-sizing: bo;
+  width: 1120px;
+  margin: 88px auto 137px;
+}
+
+ol {
+  padding: 0px;
+}
+
+ol h3 li {
+  margin: 20px 30px 4px;
+}
