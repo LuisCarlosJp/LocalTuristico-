@@ -2,10 +2,52 @@ body {
   background-color: #f5f4f0;
 }
 
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+  color: #333333;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
 #page {
   box-sizing: bo;
   width: 1120px;
   margin: 88px auto 56px;
+}
+
+img {
+  width: 100%;
+  border-radius: 28px;
 }
 
 ol {
@@ -16,9 +58,8 @@ ol h3 li {
   margin: 20px 30px 4px;
 }
 
-img {
-  width: 100%;
-  border-radius: 28px;
+ul li {
+  list-style: disc;
 }
 
 footer {
